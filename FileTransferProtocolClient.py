@@ -1,0 +1,10 @@
+import socket
+s=socket.socket()
+adr=("127.0.0.1",9999)
+s.connect(adr)
+rfilename=input(str("Name of the file: "))
+rfile=open(rfilename,'wb')
+rdata=s.recv(1024)
+rfile.write(rdata)
+rfile.close()
+print("File received.")
