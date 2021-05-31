@@ -5,6 +5,8 @@ The programs include codes that can perform the following functions:
   2) A UDP Echo Client/Server communication
   3) A concurrent TCP/IP Client-Server Communication that is capable of demonstrating Date and Time
   4) Full Duplex Communication between a Server and a Client
-  5) Implementation of File Transfer Protocol
-  6) Remote Command Execution using UDP
+  5) Implementation of File Transfer Protocol**
+  6) Remote Command Execution using UDP (dubbed "mastercode" and "slavecode")
   7) Implementation of Address Resolution Protocol using UDP
+
+** - Ensure that the client program is in a separate folder. Create two .txt documents, place one of them in the separate folder which was made for the CLient Program
